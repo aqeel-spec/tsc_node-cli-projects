@@ -1,0 +1,27 @@
+{
+  "name": "rz_currency_calc",
+  "version": "1.5.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "rz_calculator": "lib/index.js"
+  },
+  "scripts": {
+    "start": "tsc && node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4",
+    "table": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3"
+  }
+}
